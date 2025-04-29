@@ -1,0 +1,109 @@
+{
+    "@context": {
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "og": "http://ogp.me/ns#",
+        "dct": "http://purl.org/dc/terms/",
+        "Concept": { "@id": "skos:Concept" },
+        "ConceptScheme": { "@id": "skos:Concept" },
+        "title": { "@id": "dct:title" },
+        "description": { "@id": "dct:description" },
+        "creator": { "@id": "dct:creator" },
+        "prefLabel": { "@id": "skos:prefLabel" },
+        "altLabel": { "@id": "skos:altLabel" },
+        "definition": { "@id": "skos:definition" },
+        "inScheme": { "@id": "skos:inScheme" }
+    },
+    "@graph": [
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs",
+            "@type": "ConceptScheme",
+            "title": "Data Inputs",
+            "description": "A shortened list of data inputs used in the HSSI search and submission interfaces.",
+            "creator": ["Rebecca Ringuette", "Catherine Byrd"]
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs#HAPI",
+            "@type": "Concept",
+            "prefLabel": "HAPI",
+            "definition": "The Heliophysics API",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs#CDAWeb",
+            "@type": "Concept",
+            "prefLabel": "CDAWeb",
+            "definition": "The Coordinated Data Analysis Web hosted by the Space Physics Data Facility at NASA Goddard.",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs"
+        },
+		{
+      		"@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs#OMNIWeb",
+      		"@type": "Concept",
+      		"prefLabel": "OMNIWeb",
+      		"definition": "The web portal to OMNI data hosted by the Space Physics Data Facility at NASA Goddard.",
+      		"inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs"
+    	},      
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs#VSO",
+            "@type": "Concept",
+            "prefLabel": "VSO",
+            "definition": "The Virtual Solar Observatory.",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs#TAP",
+            "@type": "Concept",
+            "prefLabel": "TAP",
+            "definition": "TAP is a service protocol for accessing database, table data and table metadata (Dower et al., 2010).",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs#das2",
+            "@type": "Concept",
+            "prefLabel": "das2",
+            "definition": "das2 is the second-generation web-based data delivery, visualization, and analysis system from the The University of Iowa.",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs#VirES",
+            "@type": "Concept",
+            "prefLabel": "VirES",
+            "definition": "VirES for Swarm is a highly interactive data manipulation and retrieval interface for the ESA Swarm constellation mission products. ",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs#JSOC",
+            "@type": "",
+            "prefLabel": "JSOC",
+            "definition": "The data portal associated with the Joint Science Operations Center, typically for solar data.",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs#SSCWeb",
+            "@type": "Concept",
+            "prefLabel": "SSCWeb",
+            "definition": "The Satellite Situation Center (SSCWeb) system.",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs#s3-aware",
+            "@type": "Concept",
+            "prefLabel": "s3-aware",
+            "definition": "Aware of and works for data in s3 storage.",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs#Observatory-specific",
+            "@type": "Concept",
+            "prefLabel": "Observatory-specific",
+            "definition": "A data input service associated with a specific observatory or mission.",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs"
+        },  
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs#Other",
+            "@type": "Concept",
+            "prefLabel": "Other",
+            "definition": "Data inputs not mentioned elsewhere in this list.",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/DataInputs"
+        }      
+  ]
+}
