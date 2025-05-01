@@ -22,66 +22,93 @@
             "creator": ["Rebecca Ringuette", "Isaiah Smith"]
         },
         {
-            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#C/C++/C#",
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#C",
             "@type": "Concept",
-            "prefLabel": "C/C++/C#",
-            "definition": "C-related programming languages",
+            "prefLabel": "C",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#C++",
+            "@type": "Concept",
+            "prefLabel": "C++",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#C#",
+            "@type": "Concept",
+            "prefLabel": "C#",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#IDL",
             "@type": "Concept",
             "prefLabel": "IDL",
-            "definition": "The IDL (Interactive Data Language) programming language, including all versions.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
         },
-		{
-      		"@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Python",
-      		"@type": "Concept",
-      		"prefLabel": "Python",
-      		"definition": "The Python programming language, including all versions.",
-      		"inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
-    	},      
+	{
+      	    "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Python2",
+      	    "@type": "Concept",
+      	    "prefLabel": "Python 2.x",
+      	    "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
+    	},     
+	{
+      	    "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Python3",
+      	    "@type": "Concept",
+      	    "prefLabel": "Python 3.x",
+      	    "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
+    	},     
         {
-            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Fortran",
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Fortran77",
             "@type": "Concept",
-            "prefLabel": "Fortran",
-            "definition": "The FORTRAN programming languages, including FORTRAN90, FORTRAN77, and other versions.",
+            "prefLabel": "Fortran77",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Fortran90",
+            "@type": "Concept",
+            "prefLabel": "Fortran90",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Fortran2003",
+            "@type": "Concept",
+            "prefLabel": "Fortran 2003",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Fortran2008",
+            "@type": "Concept",
+            "prefLabel": "Fortran 2008",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Julia",
             "@type": "Concept",
             "prefLabel": "Julia",
-            "definition": "The Julia programming language, including all versions.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Java",
             "@type": "Concept",
             "prefLabel": "Java",
-            "definition": "The Java programming language, including all versions.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Javascript",
             "@type": "Concept",
             "prefLabel": "Javascript",
-            "definition": "The Javascript programming language, including all versions.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#MATLAB",
             "@type": "Concept",
             "prefLabel": "MATLAB",
-            "definition": "The MATLAB programming language, including all versions.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#SQL",
             "@type": "Concept",
             "prefLabel": "SQL",
-            "definition": "The SQL programming language, including all versions.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
         },
         {
