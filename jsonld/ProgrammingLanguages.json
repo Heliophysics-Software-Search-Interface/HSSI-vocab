@@ -115,7 +115,6 @@
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Other",
             "@type": "Concept",
             "prefLabel": "Other",
-            "definition": "Programming languages not mentioned elsewhere in this list.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
         }      
   ]
