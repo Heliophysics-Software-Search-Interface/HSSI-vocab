@@ -138,12 +138,6 @@ sf:Forecasting
   skos:broader sf:ModelsSimulations ;
   skos:prefLabel "Forecasting"@en ;
 .
-sf:Theory
-  rdf:type sf:SoftwareFunctionality ;
-  rdfs:isDefinedBy sf:functionality ;
-  skos:broader sf:ModelsSimulations ;
-  skos:prefLabel "Theory"@en ;
-.
 sf:MHD
   rdf:type sf:SoftwareFunctionality ;
   rdfs:isDefinedBy sf:functionality ;
@@ -180,12 +174,6 @@ sf:InstrumentResponse
   skos:broader sf:ModelsSimulations ;
   skos:broader sf:MissionRelated ;
   skos:prefLabel "Instrument Response"@en ;
-.
-sf:DataGuided
-  rdf:type sf:SoftwareFunctionality ;
-  rdfs:isDefinedBy sf:functionality ;
-  skos:broader sf:ModelsSimulations ;
-  skos:prefLabel "Data Guided"@en ;
 .
 sf:HPC
   rdf:type sf:SoftwareFunctionality ;
@@ -259,12 +247,6 @@ sf:InstrumentResponse
   rdfs:isDefinedBy sf:functionality ;
   skos:broader sf:MissionRelated ;
   skos:prefLabel "Instrument Response"@en ;
-.
-sf:Calibration
-  rdf:type sf:SoftwareFunctionality ;
-  rdfs:isDefinedBy sf:functionality ;
-  skos:broader sf:MissionRelated ;
-  skos:prefLabel "Calibration"@en ;
 .
 sf:DistributionAccess
   rdf:type sf:SoftwareFunctionality ;
