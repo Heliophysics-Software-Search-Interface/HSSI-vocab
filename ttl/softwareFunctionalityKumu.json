@@ -1,0 +1,90 @@
+{
+  "elements": [
+    {
+      "label": "Mission-Related",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {
+      "label": "ML/AI",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {
+      "label": "Servers and Environments",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {
+      "label": "Data Access and Retrieval",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {
+      "label": "Data Processing and Analysis",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {
+      "label": "Data Assimilation",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {
+      "label": "Models and Simulations",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {
+      "label": "Data Reduction",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {
+      "label": "Data Visualization",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {"label": "Line Plots"},
+    {"label": "2D Graphics"},
+    {"label": "3D Graphics"},
+    {"label": "Power Spectra"},
+    {"label": "Web-Based"},
+    {"label": "Mission-Specific"}
+  ],
+  "connections": [
+    {
+      "from": "Data Visualization",
+      "to": "Line Plots"
+    },
+    {
+      "from": "Data Visualization",
+      "to": "2D Graphics"
+    },
+    {
+      "from": "Data Visualization",
+      "to": "3D Graphics"
+    },
+    {
+      "from": "Data Visualization",
+      "to": "Power Spectra"
+    },
+    {
+      "from": "Data Visualization",
+      "to": "Web-Based"
+    },
+    {
+      "from": "Data Visualization",
+      "to": "Mission-Specific"
+    }
+  ]
+}
