@@ -25,70 +25,60 @@
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#CDF",
             "@type": "Concept",
             "prefLabel": "CDF",
-            "definition": "The Common Data Format.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#netCDF3/4",
             "@type": "Concept",
             "prefLabel": "netCDF3/4",
-            "definition": "The Network Common Data Form file format, including versions 3 and 4.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#HDF5",
             "@type": "Concept",
             "prefLabel": "HDF5",
-            "definition": "High performance data file format.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#FITS",
             "@type": "Concept",
             "prefLabel": "FITS",
-            "definition": "The Flexible Image Transport System file format.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#csv",
             "@type": "Concept",
             "prefLabel": "csv",
-            "definition": "The comma-separated values file format.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#ascii",
             "@type": "Concept",
             "prefLabel": "ascii",
-            "definition": "A text file format that uses the American Standard Code for Information Interchange (ASCII) to represent characters.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest/SupportedFileFormats"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#Zarr",
             "@type": "Concept",
             "prefLabel": "Zarr",
-            "definition": "A file format based on key-value stores, typically used on the cloud.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#JSON",
             "@type": "Concept",
             "prefLabel": "JSON",
-            "definition": "A file format built for JavaScript Object Notation, including linked data versions.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#IDL.sav",
             "@type": "Concept",
             "prefLabel": "IDL.sav",
-            "definition": "Files produced by the SAVE command in IDL.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#Other",
             "@type": "Concept",
             "prefLabel": "Other",
-            "definition": "File formats not mentioned elsewhere in this list.",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
         }    
   ]
