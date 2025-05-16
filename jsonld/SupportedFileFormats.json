@@ -1,0 +1,85 @@
+{
+    "@context": {
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "og": "http://ogp.me/ns#",
+        "dct": "http://purl.org/dc/terms/",
+        "Concept": { "@id": "skos:Concept" },
+        "ConceptScheme": { "@id": "skos:Concept" },
+        "title": { "@id": "dct:title" },
+        "description": { "@id": "dct:description" },
+        "creator": { "@id": "dct:creator" },
+        "prefLabel": { "@id": "skos:prefLabel" },
+        "altLabel": { "@id": "skos:altLabel" },
+        "definition": { "@id": "skos:definition" },
+        "inScheme": { "@id": "skos:inScheme" }
+    },
+    "@graph": [
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats",
+            "@type": "ConceptScheme",
+            "title": "Supported File Formats",
+            "description": "A shortened list of supported file formats used in the HSSI search and submission interfaces.",
+            "creator": ["Catherine Byrd", "Rebecca Ringuette"]
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#CDF",
+            "@type": "Concept",
+            "prefLabel": "CDF",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#netCDF3/4",
+            "@type": "Concept",
+            "prefLabel": "netCDF3/4",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#HDF5",
+            "@type": "Concept",
+            "prefLabel": "HDF5",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#FITS",
+            "@type": "Concept",
+            "prefLabel": "FITS",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#csv",
+            "@type": "Concept",
+            "prefLabel": "csv",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#ascii",
+            "@type": "Concept",
+            "prefLabel": "ascii",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest/SupportedFileFormats"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#Zarr",
+            "@type": "Concept",
+            "prefLabel": "Zarr",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#JSON",
+            "@type": "Concept",
+            "prefLabel": "JSON",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#IDL.sav",
+            "@type": "Concept",
+            "prefLabel": "IDL.sav",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats#Other",
+            "@type": "Concept",
+            "prefLabel": "Other",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SupportedFileFormats"
+        }    
+  ]
+}

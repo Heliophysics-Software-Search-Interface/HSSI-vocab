@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "og": "http://ogp.me/ns#",
+        "dct": "http://purl.org/dc/terms/",
+        "Concept": { "@id": "skos:Concept" },
+        "ConceptScheme": { "@id": "skos:Concept" },
+        "title": { "@id": "dct:title" },
+        "description": { "@id": "dct:description" },
+        "creator": { "@id": "dct:creator" },
+        "prefLabel": { "@id": "skos:prefLabel" },
+        "altLabel": { "@id": "skos:altLabel" },
+        "definition": { "@id": "skos:definition" },
+        "inScheme": { "@id": "skos:inScheme" }
+    },
+    "@graph": [
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/OperatingSystem",
+            "@type": "ConceptScheme",
+            "title": "Operating System",
+            "description": "A shortened list of operating system used in the HSSI search and submission interfaces.",
+            "creator": ["Rebecca Ringuette", "Catherine Byrd"]
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/OperatingSystem#Mac",
+            "@type": "Concept",
+            "prefLabel": "Mac",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/OperatingSystem"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/OperatingSystem#Windows",
+            "@type": "Concept",
+            "prefLabel": "Windows",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/OperatingSystem"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/OperatingSystem#Linux",
+            "@type": "Concept",
+            "prefLabel": "Linux",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/OperatingSystem"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/OperatingSystem#MobilePlatform",
+            "@type": "Concept",
+            "prefLabel": "MobilePlatform",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/OperatingSystem"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/OperatingSystem#Other",
+            "@type": "Concept",
+            "prefLabel": "Other",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/OperatingSystem"
+        }
+  ]
+}

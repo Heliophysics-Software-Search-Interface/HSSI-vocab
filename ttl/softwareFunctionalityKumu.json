@@ -1,0 +1,258 @@
+{
+  "elements": [
+    {
+      "label": "Mission-Related",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {
+      "label": "ML/AI",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {
+      "label": "Servers and Environments",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {
+      "label": "Data Access and Retrieval",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {
+      "label": "Data Processing and Analysis",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {
+      "label": "Data Assimilation",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {
+      "label": "Models and Simulations",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {
+      "label": "Data Reduction",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {
+      "label": "Data Visualization",
+      "color": "black",
+      "shape": "circle",
+      "size": "10"
+    },
+    {"label": "Line Plots"},
+    {"label": "2D Graphics"},
+    {"label": "3D Graphics"},
+    {"label": "Power Spectra"},
+    {"label": "Web-Based"},
+    {"label": "Mission-Specific"},
+    {"label": "Theory"},
+    {"label": "Empirical"},
+    {"label": "Forecasting"},
+    {"label": "MHD"},
+    {"label": "First Principles"},
+    {"label": "Physics-Based"},
+    {"label": "Data Guided"},
+    {"label": "Forward-Fitting"},
+    {"label": "Instrument Response"},
+    {"label": "High Performance Computing"},
+    {"label": "Data servers processing and handling"},
+    {"label": "Software or Environment Container"},
+    {"label": "Image Processing"},
+    {"label": "Coordinate Transforms"},
+    {"label": "Ingest"},
+    {"label": "Inventory"},
+    {"label": "Operations"},
+    {"label": "System Testing"},
+    {"label": "Instrumentation"},
+    {"label": "Calibration"},
+    {"label": "Instrument Response"},
+    {"label": "Calibration"},
+    {"label": "Distribution/Access"},
+    {"label": "Analysis"},
+    {"label": "Archive"},
+    {"label": "Monitoring"},
+    {"label": "Processing"},
+    {"label": "Packet Decommutation"},
+    {"label": "Orchestration"},
+    {"label": "Science Data Processing"},
+    {"label": "Infrastructure as Code"},
+    {"label": "Observatory/Instrument models"}
+  ],
+  "connections": [
+    {
+      "from": "Data Visualization",
+      "to": "Line Plots"
+    },
+    {
+      "from": "Data Visualization",
+      "to": "2D Graphics"
+    },
+    {
+      "from": "Data Visualization",
+      "to": "3D Graphics"
+    },
+    {
+      "from": "Data Visualization",
+      "to": "Power Spectra"
+    },
+    {
+      "from": "Data Visualization",
+      "to": "Web-Based"
+    },
+    {
+      "from": "Data Visualization",
+      "to": "Mission-Specific"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Mission-Specific"
+    },
+    {
+      "from": "Models and Simulations",
+      "to": "Theory"
+    },
+    {
+      "from": "Models and Simulations",
+      "to": "Empirical"
+    },
+    {
+      "from": "Models and Simulations",
+      "to": "Forecasting"
+    },
+    {
+      "from": "Models and Simulations",
+      "to": "MHD"
+    },
+    {
+      "from": "Models and Simulations",
+      "to": "First Principles"
+    },
+    {
+      "from": "Models and Simulations",
+      "to": "Physics-Based"
+    },
+    {
+      "from": "Models and Simulations",
+      "to": "Data Guided"
+    },
+    {
+      "from": "Models and Simulations",
+      "to": "Forward-Fitting"
+    },
+    {
+      "from": "Models and Simulations",
+      "to": "Instrument Response"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Instrument Response"
+    },
+    {
+      "from": "Servers and Environments",
+      "to": "High Performance Computing"
+    },
+    {
+      "from": "Servers and Environments",
+      "to": "Data servers processing and handling"
+    },
+    {
+      "from": "Servers and Environments",
+      "to": "Software or Environment Container"
+    },
+    {
+      "from": "Data Processing and Analysis",
+      "to": "Image Processing"
+    },
+    {
+      "from": "Data Processing and Analysis",
+      "to": "Coordinate Transforms"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Ingest"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Inventory"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Operations"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "System Testing"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Instrumentation"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Calibration"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Instrument Response"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Distribution/Access"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Analysis"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Archive"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Monitoring"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Processing"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Packet Decommutation"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Orchestration"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Science Data Processing"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Infrastructure as Code"
+    },
+    {
+      "from": "Mission-Related",
+      "to": "Observatory/Instrument models"
+    },
+    {
+      "from": "Models and Simulations",
+      "to": "Observatory/Instrument models"
+    }    
+  ]
+}
