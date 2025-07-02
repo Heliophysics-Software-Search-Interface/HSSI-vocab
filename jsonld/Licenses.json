@@ -15,49 +15,49 @@
     },
     "@graph": [
         {
-            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License",
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses",
             "@type": "ConceptScheme",
-            "title": "License",
+            "title": "Licenses",
             "description": "A shortened list of license used in the HSSI search and submission interfaces sourced from https://opensource.org/proliferation-report.",
             "creator": ["Catherine Byrd”, “Rebecca Ringuette"]
         },
         {
-            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License#ApacheLicense2.0",
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#ApacheLicense2.0",
             "@type": "Concept",
             "prefLabel": "Apache License 2.0",
-            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License"
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses"
         },
         {
-            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License#NewBSDlicense",
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#NewBSDlicense",
             "@type": "Concept",
             "prefLabel": "New BSD license",
-            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License"
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses"
         },
         {
-            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License#GNULibrary",
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#GNULibrary",
             "@type": "Concept",
             "prefLabel": "GNU Library or ‘Lesser’ General Public Licenses (LGPL version 2)",
             "altLabel": “GNU Library”,
-            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License"
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses"
         },
         {
-            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License#GNUGeneral",
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#GNUGeneral",
             "@type": "Concept",
             "prefLabel": "GNU General Public Licenses (GPL version 2)",
             "altLabel": “GNU General”,
-            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License"
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses"
         },
         {
-            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License#MITLicense",
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#MITLicense",
             "@type": "Concept",
             "prefLabel": "MIT License",
-            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License"
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses"
         },
         {
-            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License#Other",
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#Other",
             "@type": "Concept",
             "prefLabel": "Other",
-            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License"
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses"
         }
   ]
 }
