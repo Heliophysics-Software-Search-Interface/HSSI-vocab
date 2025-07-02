@@ -28,9 +28,9 @@
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License"
         },
         {
-            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License#NewBSDlicenses",
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License#NewBSDlicense",
             "@type": "Concept",
-            "prefLabel": "New BSD licenses",
+            "prefLabel": "New BSD license",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License"
         },
         {
@@ -51,31 +51,6 @@
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License#MITLicense",
             "@type": "Concept",
             "prefLabel": "MIT License",
-            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License"
-        },
-        {
-            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License#MozillaPublicLicense1.1",
-            "@type": "Concept",
-            "prefLabel": "Mozilla Public License 1.1",
-            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License"
-        },
-        {
-            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License#CommonDevelopment",
-            "@type": "Concept",
-            "prefLabel": "Common Development and Distribution Licenses",
-            "altLabel": “Common Development”,
-            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License"
-        },
-        {
-            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License#CommonPublicLicense",
-            "@type": "Concept",
-            "prefLabel": "Common Public License",
-            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License"
-        },
-        {
-            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License#EclipsePublicLicense",
-            "@type": "Concept",
-            "prefLabel": "Eclipse Public Licenses",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/License"
         },
         {
