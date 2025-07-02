@@ -19,7 +19,7 @@
             "@type": "ConceptScheme",
             "title": "Programming Languages",
             "description": "A shortened list of programming languages used in the HSSI search and submission interfaces.",
-            "creator": ["Rebecca Ringuette", "Isaiah Smith"]
+            "creator": ["Rebecca Ringuette", "Isaiah Smith", "Catherine Byrd"]
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#C",
@@ -99,10 +99,22 @@
             "prefLabel": "Javascript",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
         },
+ 	{
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Typescript",
+            "@type": "Concept",
+            "prefLabel": "Typescript",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
+        },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#MATLAB",
             "@type": "Concept",
             "prefLabel": "MATLAB",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
+        },
+	{
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Rust",
+            "@type": "Concept",
+            "prefLabel": "Rust",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
         },
         {
