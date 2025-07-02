@@ -1,0 +1,80 @@
+{
+    "@context": {
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "og": "http://ogp.me/ns#",
+        "dct": "http://purl.org/dc/terms/",
+        "Concept": { "@id": "skos:Concept" },
+        "ConceptScheme": { "@id": "skos:Concept" },
+        "title": { "@id": "dct:title" },
+        "description": { "@id": "dct:description" },
+        "creator": { "@id": "dct:creator" },
+        "prefLabel": { "@id": "skos:prefLabel" },
+        "altLabel": { "@id": "skos:altLabel" },
+        "definition": { "@id": "skos:definition" },
+        "inScheme": { "@id": "skos:inScheme" }
+    },
+    "@graph": [
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures",
+            "@type": "ConceptScheme",
+            "title": "CPU Architectures",
+            "description": "A shortened list of CPU architectures used in the HSSI search and submission interfaces.",
+            "creator": ["Catherine Byrd", "Rebecca Ringuette"]
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures#x86-64",
+            "@type": "Concept",
+            "prefLabel": "x86-64",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures"
+        }, 
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures#AppleSilicon_arm64",
+            "@type": "Concept",
+            "prefLabel": "Apple Silicon arm64",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures#Sun(SPARC)",
+            "@type": "Concept",
+            "prefLabel": "Sun (SPARC)",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures#Linux_aarch64arm64",
+            "@type": "Concept",
+            "prefLabel": "Linux aarch64 or arm64",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures#CPUIndependent",
+            "@type": "Concept",
+            "prefLabel": "CPU Independent",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures#GPU",
+            "@type": "Concept",
+            "prefLabel": "GPU",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures#HPC_HEC",
+            "@type": "Concept",
+            "prefLabel": "HPC or HEC",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures#ppc64le",
+            "@type": "Concept",
+            "prefLabel": "ppc64le",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures#Other",
+            "@type": "Concept",
+            "prefLabel": "Other",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/CPUArchitectures"
+        }
+
+  ]
+}
