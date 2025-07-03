@@ -1,0 +1,465 @@
+# baseURI: https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/
+# imports: http://www.w3.org/2004/02/skos/core
+# copying off of https://github.com/rmcgranaghan/Helio-KNOW/blob/main/data-models/hk_region-v3.1.ttl
+# feedback incorporated from tab 2 of https://docs.google.com/document/d/1vmDwP2XxUDwIuG-GeLizct5tG18wyYqgISwqU8vK4xk/edit?usp=sharing
+
+@prefix sf: <https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/SoftwareFunctionality> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sf:SoftwareFunctionality
+  rdf:type owl:Class ;
+  rdfs:subClassOf skos:Concept ;
+  skos:prefLabel "Software Functionality"@en ;
+.
+sf:functionality
+  rdf:type owl:Ontology ;
+  <http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0003-0875-2023> ;
+  <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-SA-4.0.html> ;
+  rdfs:comment "v.0.1" ;
+  rdfs:label "HSSI Software Functionality Taxonomy"@en ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+.
+sf:MissionRelated
+  rdf:type owl:Class ;
+  rdfs:subClassOf sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:prefLabel "Mission-related"@en ;
+  skos:altLabel "Mission"@en;
+.
+sf:ServersEnvironments
+  rdf:type owl:Class ;
+  rdfs:subClassOf sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:prefLabel "Servers and Environments"@en ;
+  skos:altLabel "Env"@en;
+.
+sf:DataProcessingAnalysis
+  rdf:type owl:Class ;
+  rdfs:subClassOf sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:prefLabel "Data Processing and Analysis"@en ;
+  skos:altLabel "Analysis"@en;
+.
+sf:ModelsSimulations
+  rdf:type owl:Class ;
+  rdfs:subClassOf sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:prefLabel "Models and Simulations"@en ;
+  skos:altLabel "Sims"@en;
+.
+sf:DataVisualization
+  rdf:type owl:Class ;
+  rdfs:subClassOf sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:prefLabel "Data Visualization"@en ;
+  skos:altLabel "Visual"@en;
+.
+sf:CoordinateTransforms
+  rdf:type owl:Class ;
+  rdfs:subClassOf sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:prefLabel "Coordinate Transforms"@en ;
+  skos:altLabel "Coords"@en;
+.
+sf:MLAI
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataVisualization ;
+  skos:broader sf:ModelsSimulations ;
+  skos:broader sf:MissionRelated ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "ML/AI"@en ;
+.
+sf:LinePlots
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataVisualization ;
+  skos:prefLabel "Line Plots"@en ;
+.
+sf:TwoD
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataVisualization ;
+  skos:prefLabel "2D Graphics"@en ;
+.
+sf:TwoDSlices
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataVisualization ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "2D Slices"@en ;
+.
+sf:Spectrogram
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataVisualization ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Spectrogram"@en ;
+.
+sf:ThreeD
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataVisualization ;
+  skos:prefLabel "3D Graphics"@en ;
+.
+sf:Movies
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataVisualization ;
+  skos:prefLabel "Movies"@en ;
+.
+sf:OrbitPlots
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataVisualization ;
+  skos:prefLabel "Orbit Plots"@en ;
+.
+sf:SpacecraftPlots
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataVisualization ;
+  skos:prefLabel "Spacecraft Formation Plots"@en ;
+  skos:altLabel "Spacecraft Plots"@en;
+.
+sf:Hodograms
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataVisualization ;
+  skos:prefLabel "Hodograms"@en ;
+.
+sf:WebBased
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataVisualization ;
+  skos:prefLabel "Web-Based"@en ;
+.
+sf:MissionSpecific
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataVisualization ;
+  skos:broader sf:CoordinateTransforms ;
+  skos:broader sf:ModelsSimulations ;
+  skos:prefLabel "Mission-Specific"@en ;
+.
+sf:Heliospheric
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:CoordinateTransforms ;
+  skos:prefLabel "Heliospheric"@en ;
+.
+sf:Magnetospheric
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:CoordinateTransforms ;
+  skos:prefLabel "Magnetospheric"@en ;
+.
+sf:Planetary
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:CoordinateTransforms ;
+  skos:prefLabel "Planetary"@en ;
+.
+sf:Solar
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:CoordinateTransforms ;
+  skos:prefLabel "Solar"@en ;
+.
+sf:Ionospheric
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:CoordinateTransforms ;
+  skos:prefLabel "Ionospheric"@en ;
+.
+sf:FieldlineTracing
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:ModelsSimulations ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Field-line Tracing"@en ;
+.
+sf:Theory
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:ModelsSimulations ;
+  skos:prefLabel "Theory"@en ;
+.
+sf:Empirical
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:ModelsSimulations ;
+  skos:prefLabel "Empirical"@en ;
+.
+sf:Forecasting
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:ModelsSimulations ;
+  skos:prefLabel "Forecasting"@en ;
+.
+sf:MHD
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:ModelsSimulations ;
+  skos:prefLabel "MHD"@en ;
+.
+sf:FirstPrinciples
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:ModelsSimulations ;
+  skos:prefLabel "First Principles"@en ;
+.
+sf:PhysicsBased
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:ModelsSimulations ;
+  skos:prefLabel "Physics-Based"@en ;
+.
+sf:DataGuided
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:ModelsSimulations ;
+  skos:prefLabel "Data Guided"@en ;
+.
+sf:ForwardFitting
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:ModelsSimulations ;
+  skos:prefLabel "Forward-Fitting"@en ;
+.
+sf:InstrumentResponse
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:ModelsSimulations ;
+  skos:broader sf:MissionRelated ;
+  skos:prefLabel "Instrument Response"@en ;
+.
+sf:ObsInst
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:ModelsSimulations ;
+  skos:broader sf:MissionRelated ;
+  skos:prefLabel "Observatory/Instrument Models"@en ;
+  skos:altLabel "Obs/Inst Models"@en ;
+.
+sf:IaC
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:ServersEnvironments ;
+  skos:broader sf:MissionRelated ;
+  skos:prefLabel "Infrastructure as Code"@en ;
+.
+sf:DistributionAccess
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:ServersEnvironments ;
+  skos:broader sf:MissionRelated ;
+  skos:prefLabel "Distribution/Access"@en ;
+.
+sf:HPC
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:ServersEnvironments ;
+  skos:prefLabel "High Performance Computing"@en ;
+.
+sf:ServersProcessing
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:ServersEnvironments ;
+  skos:prefLabel "Data servers processing and handling"@en ;
+  skos:altLabel "Server proc"@en ;
+.
+sf:Container
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:ServersEnvironments ;
+  skos:prefLabel "Software or Environment Container"@en ;
+  skos:altLabel "Containers"@en ;
+.
+sf:Curlometer
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Curlometer"@en ;
+.
+sf:WaveletAnalysis
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Wavelet Analysis"@en ;
+.
+sf:FileFormatConversion
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "File Format Conversion"@en ;
+.
+sf:TimeSeriesAnalysis
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Time Series Analysis"@en ;
+.
+sf:ThreeDParticles
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "3D Particle Distribution Processing"@en ;
+  skos:altLabel "3D Particle Distributions"@en ;
+.
+sf:DataAccessRetrieval
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Data Access and Retrieval"@en ;
+.
+sf:ImageProcessing
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Image Processing"@en ;
+.
+sf:MagneticNull
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Magnetic Null Finding"@en ;
+.
+sf:DataReduction
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Data Reduction"@en ;
+.
+sf:PitchAngleDistribution
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Pitch Angle Distributions"@en ;
+.
+sf:PlasmaMoments
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Plasma Moments"@en ;
+.
+sf:WavePolarization
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Wave Polarization Analysis"@en ;
+.
+sf:DataAssimilation
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Data Assimilation"@en ;
+.
+sf:LinearGradient
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Linear Gradient Estimation"@en ;
+.
+sf:EnergySpectra
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Energy Spectra"@en ;
+.
+sf:Calibration
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:MissionRelated ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Calibration"@en ;
+.
+sf:Analysis
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:MissionRelated ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Analysis"@en ;
+.
+sf:Processing
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:MissionRelated ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Processing"@en ;
+.
+sf:PacketDecommutation
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:MissionRelated ;
+  skos:broader sf:DataProcessingAnalysis ;
+  skos:prefLabel "Packet Decommutation"@en ;
+.
+sf:Ingest
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:MissionRelated ;
+  skos:prefLabel "Ingest"@en ;
+.
+sf:Inventory
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:MissionRelated ;
+  skos:prefLabel "Inventory"@en ;
+.
+sf:Operations
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:MissionRelated ;
+  skos:prefLabel "Operations"@en ;
+.
+sf:SystemTesting
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:MissionRelated ;
+  skos:prefLabel "System Testing"@en ;
+.
+sf:Instrumentation
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:MissionRelated ;
+  skos:prefLabel "Instrumentation"@en ;
+.
+sf:InstrumentResponse
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:MissionRelated ;
+  skos:prefLabel "Instrument Response"@en ;
+.
+sf:DistributionAccess
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:MissionRelated ;
+  skos:prefLabel "Distribution/Access"@en ;
+.
+sf:Archive
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:MissionRelated ;
+  skos:prefLabel "Archive"@en ;
+.
+sf:Monitoring
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:MissionRelated ;
+  skos:prefLabel "Monitoring"@en ;
+.
+sf:Orchestration
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:MissionRelated ;
+  skos:prefLabel "Orchestration"@en ;
+.
+sf:ScienceDataProcessing
+  rdf:type sf:SoftwareFunctionality ;
+  rdfs:isDefinedBy sf:functionality ;
+  skos:broader sf:MissionRelated ;
+  skos:prefLabel "Science Data Processing"@en ;
+.

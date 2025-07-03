@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "og": "http://ogp.me/ns#",
+        "dct": "http://purl.org/dc/terms/",
+        "Concept": { "@id": "skos:Concept" },
+        "ConceptScheme": { "@id": "skos:Concept" },
+        "title": { "@id": "dct:title" },
+        "description": { "@id": "dct:description" },
+        "creator": { "@id": "dct:creator" },
+        "prefLabel": { "@id": "skos:prefLabel" },
+        "altLabel": { "@id": "skos:altLabel" },
+        "definition": { "@id": "skos:definition" },
+        "inScheme": { "@id": "skos:inScheme" }
+    },
+    "@graph": [
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses",
+            "@type": "ConceptScheme",
+            "title": "Licenses",
+            "description": "A shortened list of license used in the HSSI search and submission interfaces sourced from https://opensource.org/proliferation-report.",
+            "creator": ["Catherine Byrd”, “Rebecca Ringuette"]
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#ApacheLicense2.0",
+            "@type": "Concept",
+            "prefLabel": "Apache License 2.0",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#NewBSDlicense",
+            "@type": "Concept",
+            "prefLabel": "New BSD license",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#GNULibrary",
+            "@type": "Concept",
+            "prefLabel": "GNU Library or ‘Lesser’ General Public Licenses (LGPL version 2)",
+            "altLabel": “GNU Library”,
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#GNUGeneral",
+            "@type": "Concept",
+            "prefLabel": "GNU General Public Licenses (GPL version 2)",
+            "altLabel": “GNU General”,
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#MITLicense",
+            "@type": "Concept",
+            "prefLabel": "MIT License",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#Other",
+            "@type": "Concept",
+            "prefLabel": "Other",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses"
+        }
+  ]
+}
