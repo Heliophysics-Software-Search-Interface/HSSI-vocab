@@ -37,14 +37,14 @@
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#GNULibrary",
             "@type": "Concept",
             "prefLabel": "GNU Library or ‘Lesser’ General Public Licenses (LGPL version 2)",
-            "altLabel": “GNU Library”,
+            "altLabel": "GNU Library",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#GNUGeneral",
             "@type": "Concept",
             "prefLabel": "GNU General Public Licenses (GPL version 2)",
-            "altLabel": “GNU General”,
+            "altLabel": "GNU General",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses"
         },
         {
