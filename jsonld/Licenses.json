@@ -50,7 +50,7 @@
             "prefLabel": "GNU General Public Licenses (GPL version 2)",
             "altLabel": "GNU General",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses",
-            "licenseUrl": "https://spdx.org/licenses/GPL-3.0"
+            "licenseUrl": "https://spdx.org/licenses/GPL-2.0"
         },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#MITLicense",
