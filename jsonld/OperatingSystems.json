@@ -22,9 +22,9 @@
             "creator": ["Rebecca Ringuette", "Catherine Byrd"]
         },
         {
-            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/OperatingSystems#OSIndependent",
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/OperatingSystems#OperatingSystemIndependent",
             "@type": "Concept",
-            "prefLabel": "OS Independent",
+            "prefLabel": "Operating System Independent",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/OperatingSystems"
         },
         {
@@ -65,3 +65,4 @@
         }
   ]
 }
+
