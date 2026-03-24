@@ -45,13 +45,13 @@
             "prefLabel": "IDL",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
         },
-	{
+		{
       	    "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Python2",
       	    "@type": "Concept",
       	    "prefLabel": "Python 2.x",
       	    "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
-    	},     
-	{
+    	},
+		{
       	    "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Python3",
       	    "@type": "Concept",
       	    "prefLabel": "Python 3.x",
@@ -79,6 +79,12 @@
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Fortran2008",
             "@type": "Concept",
             "prefLabel": "Fortran 2008",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
+        },
+        {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages#Fortran2023",
+            "@type": "Concept",
+            "prefLabel": "Fortran 2023",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/ProgrammingLanguages"
         },
         {
