@@ -64,7 +64,7 @@
             "@type": "Concept",
             "prefLabel": "Restricted",
             "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses"
-        }        
+        },
         {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#Other",
             "@type": "Concept",
