@@ -60,6 +60,12 @@
             "licenseUrl": "https://spdx.org/licenses/MIT"
         },
         {
+            "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#Restricted",
+            "@type": "Concept",
+            "prefLabel": "Restricted",
+            "inScheme": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses"
+        }        
+        {
             "@id": "https://Heliophysics-Software-Search-Interface.readthedocs.io/en/latest.html/Licenses#Other",
             "@type": "Concept",
             "prefLabel": "Other",
